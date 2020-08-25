@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>KLUS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <!-- Fails, kas atrodas projektā un satur individuālu stila kodu -->
+    <link rel='stylesheet' type='text/css' media='screen' href='./main_2.css'>
+   
+    <!-- <script src='js/main.js'></script> -->
+
+    <!-- Bootstrap links, kas kalpo kā bibliotēka, kurā ir pieejami dažādi koda piemēri, kas atvieglo izstrādes darbu
+        * Var izmantot, lai atvieglotu projekta stilošanas darbu, lai nebūtu jāizgudro ritenis no jauna
+    -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container-fluid h-100">
+        <!-- row ir bootstrap klase kura kalpo,  -->
+        <div class="row h-100">
+            <!-- col = kollona, md = kurā brīdī kollona sadalīsies daļas, 1-12 = skaitlis, kas parāda to cik plata būs kollona -->
+            <div class="left-side col-md-4 text-center h-100">
+                <h1 class="text-white"><big>Esi sveicināts ĶLUS</big></h1>
+                <hr class="line"/>
+                <p class="text-white">Tavas laboratorijas uzskaites sistēma</p>
+            </div>
+
+            <div class="col-md-6 right-side h-100">
+                <h1 class="text-blue"><big>Ko Tu vēlies darīt šodien?</big></h1>
+                <p><big>Piekļūsti savas skolas laboratorijai vai aplūku publiski pieejamo informāciju un datus par laboratoriju</big></p>
+            
+                <button class="btn btn-primary">Pieslēgties</button>
+                <button class="btn btn-outline-primary">Piekļūt publiskiem datiem</button>
+                <button class="btn btn-danger footer position-absolute mx-n3">Ziņot par kļūdu</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

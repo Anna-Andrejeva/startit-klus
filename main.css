@@ -1,0 +1,127 @@
+html, body{
+    height:100vh;
+}
+.group1{
+    margin:0 auto;
+    border:1px solid black;
+    width: 80%;
+    height: 256px;
+    left: 76px;
+    top: 128px;
+    text-align: center;
+}
+.kr-col{
+    background-color: rgb(59, 91, 233);
+}
+.sveiciens{
+        width: 361px;
+        height: 140px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 54px;
+        line-height: 70px;
+        /* or 130% */
+        text-align: center;
+        /* primary/white */
+        color: #FFFFFF;
+}
+.group3{
+    margin:0 auto;
+    border:1px solid black;
+    width: 80%;
+    height: 256px;
+    left: 76px;
+    top: 128px;
+    text-align: center;
+}
+
+.line {
+    width: 248px;
+    height: 0;
+    border: 1px solid #FFFFFF;
+    }
+.paskaidrojums {
+       
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        /* identical to box height */
+        text-align: center;
+        /* primary/white */
+        color: #FFFFFF;
+      }
+      .kimija{
+          margin:0 auto;
+          display: block;
+          margin-top: 10vh;
+          width: 80%;
+      }
+      .kaste{
+          display: block;
+      }
+      .pa-kreisi{
+          text-align: left;
+      }
+      .zila{
+          color: #0084f8;
+      }
+      .peleks{
+        color: #52616b;
+    }
+.poga1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+    display: inline;
+    align-items: center;
+    color: #FFFFFF;
+
+
+background: #0084F8;
+
+
+}
+.poga2{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+    display: inline;
+    align-items: center; 
+    color: #0084F8;
+    position: absolute;
+    border: 1px solid #0084F8;
+box-sizing: border-box;
+    
+
+}
+.poga3{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    color: #FFFFFF;
+    bottom:2vh;
+    right: 2vw; 
+    background: #FF8576;
+}
+
+.left-side {
+    
+    background: linear-gradient(180deg, #0084F8 0%, #00C6FF 100%);
+}
+
+.right-side {
+    background:#E5E5E5;
+    border-left: 100px;
+}
